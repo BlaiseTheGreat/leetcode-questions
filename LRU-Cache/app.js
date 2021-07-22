@@ -24,10 +24,22 @@ class DoublyLinkedList {
         }
     }
 
+    removeTail() {
+        if(this.tail === null) return;
+        if(this.head === this.tail) {
+            this.head = null;
+            this.tail = null;
+            return;
+        }
+        this.tail = this.tail.prev;
+        this.tail.next = null;
+    }
+
     printList() {
         let curr = this.head;
         while(curr) {
             console.log(curr.value);
+            curr = curr.next;
         }
     }
 }
