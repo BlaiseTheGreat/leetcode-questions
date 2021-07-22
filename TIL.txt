@@ -1,0 +1,10 @@
+TIL --> (T)oday (I) (L)earned
+
+7/20/2021 Data structure best suited for finding the smallest value and inserting
+    other values into it is a minheap. heaps are not native to javascript
+    so a different language would be better for these problems
+
+7/21/2021 LRU Cache optimal solution for implementing an LRU cache involves 
+    a hash table and a doubly linked list the has table will hold the nodes 
+    for O(1) lookup time and the linked list hold the structure of which node 
+    is first in the list
