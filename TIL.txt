@@ -20,3 +20,9 @@ TIL --> (T)oday (I) (L)earned
 		left:  [1 ,  1, 2, 6]
 		right: [24, 12, 4, 1]
 		output:[24, 12, 8, 6]
+
+7/25/2021 Maximum Points You Can Obtain from Cards
+	make a sliding window from the left, then subtract one from the left and add one from the right
+	everytime you subtract/ add one check if you have a new smallest windowl
+	FOR ARRAY PROBLEM WITH COMBINING VALUES ALWAYS CHECK IF ITS A SLIDING WINDOW
+	
