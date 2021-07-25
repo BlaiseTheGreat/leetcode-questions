@@ -8,3 +8,15 @@ TIL --> (T)oday (I) (L)earned
     a hash table and a doubly linked list the has table will hold the nodes 
     for O(1) lookup time and the linked list hold the structure of which node 
     is first in the list
+
+7/25/2021 Product of array except self
+		need to create two arrays, left array will hold the accumulateive
+		product of everything from the left of that index, and the right
+		array will hold the product of everything from the right of that
+		index, then the output array is formed by multiplying those two together
+		
+		input: [1, 2, 3, 4]
+
+		left:  [1 ,  1, 2, 6]
+		right: [24, 12, 4, 1]
+		output:[24, 12, 8, 6]
